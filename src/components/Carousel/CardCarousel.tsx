@@ -147,7 +147,7 @@ export default function CardCarousel() {
             <div
               key={card.id}
               className="absolute w-[300px] h-[400px] transition-all duration-500 cursor-pointer perspective-1000"
-              style={getCardStyle(index) as any}
+              style={getCardStyle(index)}
               onClick={() => index === activeIndex && setIsFlipped(!isFlipped)}
             >
               <div

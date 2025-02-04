@@ -1,4 +1,5 @@
 import { twMerge } from "tailwind-merge";
+import { ElementType } from "react";
 
 type ButtonVariant = 'default' | 'shimmer' | 'basic';
 
@@ -7,7 +8,7 @@ interface CustomButtonProps {
   wrapperClassName?: string;
   className?: string;
   text: string;
-  icon?: any;
+  icon?: ElementType;
   variant?: ButtonVariant;
 }
 

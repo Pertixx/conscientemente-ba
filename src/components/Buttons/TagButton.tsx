@@ -2,7 +2,7 @@ import { Tag } from "@/types";
 import { UpperCaseText } from "@/utils/upperCaseText";
 import Link from "next/link";
 
-export default function TagButton({ tag, entity }: { tag: Tag, entity: string }) {
+export default function TagButton({ tag }: { tag: Tag }) {
   const tagName = tag.name.replace(/\s+/g, '-').toLocaleLowerCase();
 
   return (

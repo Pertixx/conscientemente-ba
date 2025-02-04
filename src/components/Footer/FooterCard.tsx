@@ -1,6 +1,7 @@
 import Image from 'next/image';
-import CustomButton from './Buttons/CustomButton';
+import CustomButton from '../Buttons/CustomButton';
 import { twMerge } from 'tailwind-merge';
+import { ElementType } from 'react';
 
 type ImageVariant = "default" | "variant1" | "variant2";
 
@@ -9,7 +10,7 @@ interface FooterCardProps {
   description?: string;
   buttonText?: string;
   buttonLink?: string;
-  icon?: any;
+  icon?: ElementType;
   imageSrc: string;
   variant?: ImageVariant;
 }

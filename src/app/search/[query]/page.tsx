@@ -11,7 +11,7 @@ import { useEffect } from "react";
 
 export default function SearchPage() {
   const { query } = useParams<{ query: string }>();
-  const { articles, isLoading, error, hasMore, loadMore, searchArticles } = useArticlesSearch();
+  const { articles, isLoading, hasMore, loadMore, searchArticles } = useArticlesSearch();
 
   useEffect(() => {
     searchArticles(query);

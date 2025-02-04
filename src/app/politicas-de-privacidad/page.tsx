@@ -5,7 +5,7 @@ export default function PrivacyPolicyPage() {
         <h1 className="text-3xl font-bold">Política de Privacidad</h1>
         <p className="text-sm text-gray-500">Fecha de vigencia: 12 de junio de 2018</p>
         <p>
-          ConscientementeBA ("nosotros", "nuestro") opera la aplicación móvil ConscientementeBA (el "Servicio").
+          ConscientementeBA (&quot;nosotros&quot;, &quot;nuestro&quot;) opera la aplicación móvil ConscientementeBA (el &quot;Servicio&quot;).
         </p>
         <p>
           Esta página le informa sobre nuestras políticas con respecto a la recopilación, uso y divulgación de datos personales cuando utiliza nuestro Servicio y las opciones que tiene asociadas con esos datos.
@@ -42,7 +42,7 @@ export default function PrivacyPolicyPage() {
         <h3 className="text-xl font-medium">Tipos de Datos Recopilados</h3>
         <h4 className="text-lg font-medium">Datos Personales</h4>
         <p>
-          Mientras usa nuestro Servicio, podemos pedirle que nos proporcione cierta información de identificación personal que se puede utilizar para contactarlo o identificarlo ("Datos Personales"). La información de identificación personal puede incluir, pero no se limita a:
+          Mientras usa nuestro Servicio, podemos pedirle que nos proporcione cierta información de identificación personal que se puede utilizar para contactarlo o identificarlo (&quot;Datos Personales&quot;). La información de identificación personal puede incluir, pero no se limita a:
         </p>
         <ul className="list-disc list-inside">
           <li>Cookies y Datos de Uso</li>
@@ -52,7 +52,7 @@ export default function PrivacyPolicyPage() {
         </p>
         <h4 className="text-lg font-medium">Datos de Uso</h4>
         <p>
-          También podemos recopilar información que su navegador envía cada vez que visita nuestro Servicio o cuando accede al Servicio mediante un dispositivo móvil ("Datos de Uso").
+          También podemos recopilar información que su navegador envía cada vez que visita nuestro Servicio o cuando accede al Servicio mediante un dispositivo móvil (&quot;Datos de Uso&quot;).
         </p>
         <p>
           Estos Datos de Uso pueden incluir información como la dirección IP de su computadora, el tipo de navegador, la versión del navegador, las páginas de nuestro Servicio que visita, la fecha y hora de su visita, el tiempo dedicado a esas páginas, identificadores únicos de dispositivos y otros datos de diagnóstico.

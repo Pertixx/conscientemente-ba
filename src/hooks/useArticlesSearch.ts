@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { getArticlesBySearch } from '@/endpoints';
 import { Article, ArticleSearchParams } from '@/types';
 

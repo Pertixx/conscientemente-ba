@@ -2,54 +2,99 @@ export default function TermsAndConditionsPage() {
   return (
     <div className="px-4 flex flex-col gap-10 py-24">
       <div className="max-w-7xl mx-auto flex flex-col gap-4 w-full">
-        <h1 className="text-3xl font-bold mb-6">TÉRMINOS Y CONDICIONES</h1>
-        <p className="text-lg leading-relaxed">
-          ¡Bienvenido a ConscientementeBA! Esta Política de Privacidad ha sido diseñada para ConscientementeBA ("ConscientementeBA", "nosotros", "nuestro" o "nos"). Nuestro principal objetivo es proporcionar a los usuarios información y contenido relevante sobre bienestar y conciencia. No estamos asociados con ninguna organización, entidad o empresa. Esta App fue desarrollada de buena fe.
+        <h1 className="text-3xl font-bold">Términos y Condiciones</h1>
+        <p className="text-sm text-gray-500">Fecha de vigencia: 12 de junio de 2018</p>
+        <p>
+          ConscientementeBA (&quot;nosotros&quot;, &quot;nuestro&quot;) opera la aplicación móvil ConscientementeBA (el &quot;Servicio&quot;).
         </p>
-        <p className="text-lg leading-relaxed">
-          Esta Política de Privacidad explica cómo recopilamos, usamos, compartimos y protegemos la información relacionada con nuestros servicios móviles, sitio web y cualquier software proporcionado por o en conexión con los servicios (colectivamente, el "Servicio"), así como sus opciones sobre la recopilación y uso de su información. Nuestra Política se aplica a todos los visitantes, usuarios y otras personas que accedan al Servicio ("Usuarios").
+        <p>
+          Esta página le informa sobre nuestros términos y condiciones con respecto al uso de nuestro Servicio y las opciones que tiene asociadas con esos términos.
         </p>
-        <p className="text-lg leading-relaxed">
-          Esta Política de Privacidad rige cada aplicación de ConscientementeBA, incluida esta. ConscientementeBA se compromete a proteger su privacidad. No compartiremos, alquilaremos ni venderemos su información personal a terceros sin su permiso o según lo exija la ley. Su permiso se asegurará primero. Siempre respetaremos su privacidad.
+        <p>
+          Al usar el Servicio, acepta los términos y condiciones establecidos en esta página. A menos que se defina de otra manera en estos Términos y Condiciones, los términos utilizados en estos Términos y Condiciones tienen los mismos significados que en nuestra Política de Privacidad.
         </p>
-        <h2 className="text-2xl font-semibold mt-6 mb-4">¿CÓMO SE RECOPILA SU INFORMACIÓN?</h2>
-        <p className="text-lg leading-relaxed">
-          Al visitar nuestra App, la dirección IP utilizada para acceder al sitio se registra junto con las fechas y horas de acceso. Esta información se usa exclusivamente para analizar tendencias, administrar la aplicación, rastrear los movimientos de los usuarios y recopilar información demográfica general para uso interno. Recopilamos y usamos esta información analítica junto con la información analítica de otros usuarios de manera que no se pueda utilizar razonablemente para identificar a ningún usuario en particular.
+        <h2 className="text-2xl font-semibold">Definiciones</h2>
+        <p>
+          <strong>Servicio</strong> significa la aplicación móvil ConscientementeBA operada por nosotros.
         </p>
-        <p className="text-lg leading-relaxed">
-          Nos asociamos con redes publicitarias de terceros para mostrar mensajes publicitarios en nuestras aplicaciones o para gestionar nuestra publicidad en otros sitios. Nuestros socios de redes publicitarias utilizan diferentes tecnologías para recopilar información no identificable personalmente sobre sus actividades en esta App y otras, con el fin de ofrecerle publicidad dirigida basada en sus intereses.
+        <p>
+          <strong>Datos Personales</strong> significa cualquier información sobre un individuo vivo que puede ser identificado a partir de esos datos (o a partir de esa información y otra información que esté en nuestra posesión o que probablemente llegue a nuestra posesión).
         </p>
-        <p className="text-lg leading-relaxed">
-          Cuando utiliza la aplicación, podemos usar cookies y tecnologías similares, como píxeles, balizas web y almacenamiento local para recopilar información sobre la forma en que usa esta aplicación y proporcionarle funciones.
+        <p>
+          <strong>Datos de Uso</strong> son los datos recopilados automáticamente que se generan mediante el uso del Servicio o de la infraestructura del Servicio (por ejemplo, la duración de la visita a una página).
         </p>
-        <p className="text-lg leading-relaxed">
-          La información que recopilamos a través de cookies no es personal.
+        <p>
+          <strong>Cookies</strong> son pequeños archivos de datos almacenados en su dispositivo (computadora o dispositivo móvil).
         </p>
-        <p className="text-lg leading-relaxed">
-          Las cookies colocadas en su dispositivo por ConscientementeBA o cualquier sitio o servicio de terceros al que pueda acceder a través de la aplicación pueden permanecer almacenadas en su dispositivo o computadora hasta que las elimine.
+        <p>
+          <strong>Controlador de Datos</strong> significa la persona física o jurídica que (ya sea sola o conjuntamente con otras personas) determina los propósitos para los cuales y la forma en que se procesa cualquier información personal. Para los fines de estos Términos y Condiciones, nosotros somos el Controlador de Datos de sus Datos Personales.
         </p>
-        <h2 className="text-2xl font-semibold mt-6 mb-4">SERVICIOS DE TERCEROS</h2>
-        <p className="text-lg leading-relaxed">
-          Incluimos servicios de terceros en nuestra App para mejorar la experiencia del usuario (los servicios de terceros son fácilmente identificables por el usuario, ya que normalmente abren una nueva instancia de navegador —interna o externa— o lanzan una aplicación). Nuestras aplicaciones contienen enlaces a otros sitios web y servicios en línea. Si elige visitar un servicio de terceros o un anunciante haciendo "clic" en un enlace de terceros, será dirigido al sitio web o servicio en línea de ese tercero. El hecho de que proporcionemos un enlace a un sitio web o contenido, o presentemos un banner publicitario u otro tipo de anuncio, no implica un respaldo, autorización o representación de nuestra afiliación con ese tercero, ni implica un respaldo de sus políticas o prácticas de privacidad o seguridad de la información. Otros sitios web y servicios siguen reglas diferentes con respecto al uso o divulgación de la información personal que se les envía. Le recomendamos que lea las políticas de privacidad o declaraciones de los otros sitios web y servicios que pueda utilizar. No ejercemos control sobre los sitios web o servicios de terceros, y no asumimos ninguna responsabilidad por el comportamiento y/o las acciones de estos terceros.
+        <p>
+          <strong>Procesadores de Datos (o Proveedores de Servicios)</strong> significa cualquier persona física o jurídica que procesa los datos en nombre del Controlador de Datos. Podemos utilizar los servicios de varios Proveedores de Servicios para procesar sus datos de manera más eficaz.
         </p>
-        <h2 className="text-2xl font-semibold mt-6 mb-4">INFORMACIÓN DE REDES SOCIALES Y SERVICIOS DE REDES SOCIALES</h2>
-        <p className="text-lg leading-relaxed">
-          Toda la "Información de Redes Sociales" proporcionada por nuestras aplicaciones se obtiene por métodos públicos o fuentes públicas. No recopilamos, almacenamos ni enviamos información sensible sin el consentimiento expreso del usuario.
+        <p>
+          <strong>Sujeto de los Datos (o Usuario)</strong> es cualquier individuo vivo que esté utilizando nuestro Servicio y sea el sujeto de los Datos Personales.
         </p>
-        <p className="text-lg leading-relaxed">
-          Como usuario, puede obtener información de redes sociales, como Facebook, Twitter o Flickr, sin iniciar sesión; esto es posible mediante los métodos públicos o perfiles públicos proporcionados por cada red social y la adecuada integración con nuestras aplicaciones. No usamos su perfil social para obtener esta información.
+        <h2 className="text-2xl font-semibold">Recopilación y Uso de Información</h2>
+        <p>
+          Recopilamos diferentes tipos de información para diversos fines, con el fin de proporcionar y mejorar nuestro Servicio.
         </p>
-        <h2 className="text-2xl font-semibold mt-6 mb-4">INFORMACIÓN DE NIÑOS</h2>
-        <p className="text-lg leading-relaxed">
-          No recopilamos conscientemente información identificable personalmente de menores de 13 años, ni permitimos conscientemente que dichas personas usen el Servicio. El Servicio y su contenido no están dirigidos a menores de 13 años sin el consentimiento de los padres o tutores. Si un padre o tutor autoriza a sus hijos a usar nuestra App y supervisa dicho uso, esto implica que el padre o tutor ha leído, entendido y aceptado esta política de privacidad. Si cree que podríamos tener alguna información de o sobre un menor de 13 años, por favor contáctenos.
+        <h3 className="text-xl font-medium">Tipos de Datos Recopilados</h3>
+        <h4 className="text-lg font-medium">Datos Personales</h4>
+        <p>
+          Mientras usa nuestro Servicio, podemos pedirle que nos proporcione cierta información de identificación personal que se puede utilizar para contactarlo o identificarlo (&quot;Datos Personales&quot;). La información de identificación personal puede incluir, pero no se limita a:
         </p>
-        <h2 className="text-2xl font-semibold mt-6 mb-4">CÓMO CONTACTARNOS</h2>
-        <p className="text-lg leading-relaxed">
-          Si tiene alguna pregunta sobre esta Política de Privacidad, por favor contáctenos en info@conscientementeba.com
+        <ul className="list-disc list-inside">
+          <li>Cookies y Datos de Uso</li>
+        </ul>
+        <p>
+          Podemos utilizar sus Datos Personales para contactarlo con boletines, materiales de marketing o promocionales y otra información que pueda ser de su interés. Puede optar por no recibir estas comunicaciones siguiendo el enlace de cancelación de suscripción o las instrucciones proporcionadas en cualquier correo electrónico que enviemos, o contactándonos.
         </p>
-        <h2 className="text-2xl font-semibold mt-6 mb-4">FECHA DE VIGENCIA</h2>
-        <p className="text-lg leading-relaxed">
-          Esta Política de Privacidad será efectiva a partir del 22 de septiembre de 2014. Nos reservamos el derecho de modificar esta Política de Privacidad en cualquier momento, efectiva inmediatamente tras su publicación. Publicaremos cualquier cambio en la política de privacidad en esta App (sección Acerca de) y en nuestro sitio web: https://conscientementeba.com/terminos-y-condiciones. Esta Política de Privacidad se actualizó por última vez en la fecha indicada anteriormente. Si los cambios son significativos, proporcionaremos un aviso más destacado.
+        <h4 className="text-lg font-medium">Datos de Uso</h4>
+        <p>
+          También podemos recopilar información que su navegador envía cada vez que visita nuestro Servicio o cuando accede al Servicio mediante un dispositivo móvil (&quot;Datos de Uso&quot;).
+        </p>
+        <p>
+          Estos Datos de Uso pueden incluir información como la dirección IP de su computadora, el tipo de navegador, la versión del navegador, las páginas de nuestro Servicio que visita, la fecha y hora de su visita, el tiempo dedicado a esas páginas, identificadores únicos de dispositivos y otros datos de diagnóstico.
+        </p>
+        <p>
+          Cuando accede al Servicio mediante un dispositivo móvil, estos Datos de Uso pueden incluir información como el tipo de dispositivo móvil que utiliza, su ID único de dispositivo móvil, la dirección IP de su dispositivo móvil, su sistema operativo móvil, el tipo de navegador de Internet móvil que utiliza, identificadores únicos de dispositivos y otros datos de diagnóstico.
+        </p>
+        <h4 className="text-lg font-medium">Datos de Seguimiento y Cookies</h4>
+        <p>
+          Utilizamos cookies y tecnologías de seguimiento similares para rastrear la actividad en nuestro Servicio y retener cierta información.
+        </p>
+        <p>
+          Las cookies son archivos con una pequeña cantidad de datos que pueden incluir un identificador único anónimo. Las cookies se envían a su navegador desde un sitio web y se almacenan en su dispositivo. Las tecnologías de seguimiento utilizadas también son balizas, etiquetas y scripts para recopilar y rastrear información y mejorar y analizar nuestro Servicio.
+        </p>
+        <p>
+          Puede configurar su navegador para que rechace todas las cookies o para que le indique cuándo se está enviando una cookie. Sin embargo, si no acepta cookies, es posible que no pueda utilizar algunas partes de nuestro Servicio.
+        </p>
+        <p>
+          Ejemplos de cookies que utilizamos:
+        </p>
+        <ul className="list-disc list-inside">
+          <li><strong>Cookies de Sesión:</strong> Usamos Cookies de Sesión para operar nuestro Servicio.</li>
+          <li><strong>Cookies de Preferencias:</strong> Usamos Cookies de Preferencias para recordar sus preferencias y diversas configuraciones.</li>
+          <li><strong>Cookies de Seguridad:</strong> Usamos Cookies de Seguridad para fines de seguridad.</li>
+          <li><strong>Cookies de Publicidad:</strong> Se utilizan para mostrar anuncios relevantes según sus intereses.</li>
+        </ul>
+        <h2 className="text-2xl font-semibold">Uso de Datos</h2>
+        <p>
+          ConscientementeBA utiliza los datos recopilados para varios propósitos:
+        </p>
+        <ul className="list-disc list-inside">
+          <li>Para proporcionar y mantener nuestro Servicio</li>
+          <li>Para notificarle sobre cambios en nuestro Servicio</li>
+          <li>Para permitirle participar en funciones interactivas de nuestro Servicio cuando elija hacerlo</li>
+          <li>Para proporcionar soporte al cliente</li>
+          <li>Para recopilar análisis o información valiosa que nos permita mejorar nuestro Servicio</li>
+          <li>Para monitorear el uso de nuestro Servicio</li>
+          <li>Para detectar, prevenir y abordar problemas técnicos</li>
+          <li>Para proporcionarle noticias, ofertas especiales e información general sobre otros bienes, servicios y eventos que ofrecemos</li>
+        </ul>
+        <p>
+          Si tiene alguna pregunta sobre estos Términos y Condiciones, puede contactarnos a través de la aplicación o en nuestro correo electrónico de soporte.
         </p>
       </div>
     </div>

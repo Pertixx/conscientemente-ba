@@ -17,7 +17,7 @@ export default function TagPage() {
   const entity = searchParams.get('entity') || '';
 
   const formattedTagName = tagName.replace(/-/g, ' ');
-  const { articles, isLoading, error, loadMore, hasMore } = useArticlesByTag(formattedTagName.toLowerCase(), entity);
+  const { articles, isLoading, loadMore, hasMore } = useArticlesByTag(formattedTagName.toLowerCase(), entity);
 
   return (
     <div className="w-full py-24">

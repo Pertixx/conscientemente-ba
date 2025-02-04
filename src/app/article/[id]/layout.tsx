@@ -7,7 +7,7 @@ type Props = {
 }
 
 export async function generateMetadata(
-  { params }: { params: any }
+  { params }: { params: { id: string, slug: string } }
 ): Promise<Metadata> {
   const { id, slug } = await params;
   
@@ -48,7 +48,7 @@ export async function generateMetadata(
         follow: true,
       }
     }
-  } catch (error) {
+  } catch {
     return {
       title: 'Error cargando artículo',
       description: 'No se pudo cargar el artículo solicitado'

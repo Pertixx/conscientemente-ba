@@ -118,7 +118,7 @@ export default function ArticlePage() {
 
           <SharingList />
           <Divider />
-          <TagsList entity={article.entity_name} tags={article?.tags} />
+          <TagsList tags={article?.tags} />
         </div>
       </div>
     </>

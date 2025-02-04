@@ -7,7 +7,6 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { twMerge } from 'tailwind-merge';
 import { usePathname } from 'next/navigation';
 import SearchBar from '../SearchBar/SearchBar';
-import SharingList from '../ArticlePage/SharingList';
 import SocialMediaList from '../SocialMedia/SocialMediaList';
 
 export default function Navbar() {

@@ -1,25 +1,10 @@
 import Image from "next/image";
-import FooterCard from "./FooterCard";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import CustomButton from "../Buttons/CustomButton";
 import { IoIosMail } from "react-icons/io";
-import { FaInstagram, FaPinterest } from "react-icons/fa";
 import SocialMediaList from "../SocialMedia/SocialMediaList";
 import Link from "next/link";
 
 export default function Footer() {
-  const socialNetworks = [
-    {
-      name: "Instagram",
-      icon: <FaInstagram size={"20px"} color="white" />,
-      link: "https://www.instagram.com/conscientemente.ba/"
-    },
-    {
-      name: "Pinterest",
-      icon: <FaPinterest size={"20px"} color="white" />,
-      link: "https://www.instagram.com/conscientemente.ba/"
-    }
-  ]
 
   return (
     <div className="p-2">

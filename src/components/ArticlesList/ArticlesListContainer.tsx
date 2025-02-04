@@ -9,7 +9,7 @@ import LoadingIndicator from "../Loader/LoadingIndicator";
 import EmptyList from "../ui/EmptyList";
 
 export default function ArticlesListContainer() {
-  const { articles, isLoading, error, hasMore, entity, filter, setEntity, setFilter, loadMore, isLoadingMore } = useArticles();
+  const { articles, isLoading, hasMore, entity, filter, setEntity, setFilter, loadMore, isLoadingMore } = useArticles();
 
   const tabs = [
     { id: 'all', label: 'Todos' },
