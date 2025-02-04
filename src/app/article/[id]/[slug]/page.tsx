@@ -92,7 +92,7 @@ export default function ArticlePage() {
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeRaw]}
                 components={{
-                  img: ({ node, ...props }) => (
+                  img: (props ) => (
                     <Image 
                       {...props} 
                       className="w-full h-auto object-cover rounded-lg"
@@ -101,7 +101,7 @@ export default function ArticlePage() {
                       alt="Article Image"
                     />
                   ),
-                  a: ({ node, ...props }) => (
+                  a: (props) => (
                     <a {...props} className="text-blue-500 hover:font-bold" />
                   )
                 }}

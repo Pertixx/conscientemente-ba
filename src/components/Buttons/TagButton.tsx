@@ -8,7 +8,7 @@ export default function TagButton({ tag, entity }: { tag: Tag, entity: string })
   return (
     <Link href={`/tag/${tagName}`} className="mb-2">
       <span 
-        className="text-sm text-black bg-white border border-gray-200 rounded-full px-3 py-2 hover:bg-green-300 
+        className="text-sm text-black bg-white border border-gray-200 rounded-full px-3 py-2 hover:bg-mer 
         hover:text-white hover:font-bold transition-all duration:300"
       >
         {UpperCaseText(tag.name)} {tag.taggings_count}
