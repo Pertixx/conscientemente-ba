@@ -1,5 +1,6 @@
 import Hero from "../components/Hero/Hero";
 import ArticlesListContainer from "../components/ArticlesList/ArticlesListContainer";
+import CardCarousel from "@/components/Carousel/CardCarousel";
 
 export default function Home() {
 
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <Hero />
       <ArticlesListContainer />
+      <CardCarousel />
     </div>
   );
 }

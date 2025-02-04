@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <div className='relative flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover'>
       <Image 
-        src={"/images/stock-photo-5.jpg"} 
+        src={"/images/stock-photo-1.jpg"} 
         className="object-cover"
         alt='ConscientementeBA Logo'
         fill
