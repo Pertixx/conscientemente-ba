@@ -124,7 +124,7 @@ export default function CardCarousel() {
       <h1 className="text-4xl mb-8 text-gray-700">
         Tienda Consciente Mente
       </h1>
-      <div className="relative w-full max-w-6xl h-[400px] flex items-center justify-center overflow-x-hidden">
+      <div className="relative w-full max-w-6xl h-[500px] flex items-center justify-center overflow-x-hidden">
         {/* Navigation Buttons */}
         <button
           onClick={handlePrevious}
@@ -142,7 +142,7 @@ export default function CardCarousel() {
         </button>
 
         {/* Cards */}
-        <div className="relative w-full max-w-lg h-full flex items-center justify-center">
+        <div className="relative w-full max-w-lg h-full flex items-center justify-center py-4">
           {cards.map((card, index) => (
             <div
               key={card.id}
