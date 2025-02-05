@@ -27,7 +27,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        mer: '#4d7d7d'
+        mer: '#4d7d7d',
+        mer2: '#BFCFBB'
       },
     },
   },

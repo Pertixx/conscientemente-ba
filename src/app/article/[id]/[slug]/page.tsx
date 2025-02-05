@@ -38,11 +38,11 @@ export default function ArticlePage() {
       <script 
         dangerouslySetInnerHTML={{
           __html: `
-            var NR_newsroom_data = {
-              "id": "${article?.id}"
-            };
-            document.write('<script src="https://ht.newsroom.gg/?d=' + 
-            encodeURIComponent(JSON.stringify(NR_newsroom_data)) + '" defer><\/script>');
+            var C_contentor_data = {
+              "id": ${article?.id}
+            }
+            document.write('<scri' + 'pt src="https://ticks.contentor.io/?d=' + 
+            encodeURIComponent(JSON.stringify(C_contentor_data)) + '" defer><\/script>');
           `
         }}
       />
@@ -56,7 +56,7 @@ export default function ArticlePage() {
           height={450}
         />
         <div className="max-w-7xl mx-auto flex flex-col gap-4 w-full">
-          <h1 className="text-4xl font-bold">
+          <h1 className="text-5xl font-bold">
             {article?.title}
           </h1>
           <div className="flex gap-8 flex-col md:flex-row justify-between">
@@ -103,8 +103,16 @@ export default function ArticlePage() {
                     />
                   ),
                   a: (props) => (
-                    <a {...props} className="text-blue-500 hover:font-bold" />
-                  )
+                    <a {...props} className="text-mer hover:font-bold hover:text-mer2 transition-all" />
+                  ),
+                  h1: (props) => <h1 {...props} className="text-5xl font-bold" />,
+                  h2: (props) => <h2 {...props} className="text-4xl font-bold" />,
+                  h3: (props) => <h3 {...props} className="text-3xl font-bold" />,
+                  h4: (props) => <h4 {...props} className="text-2xl font-bold" />,
+                  h5: (props) => <h5 {...props} className="text-2xl font-bold" />,
+                  h6: (props) => <h6 {...props} className="text-xl font-bold" />,
+                  ul: (props) => <ul {...props} className="list-disc pl-4" />,
+                  ol: (props) => <ol {...props} className="list-decimal pl-4" />,
                 }}
               >
                 {article?.body}
