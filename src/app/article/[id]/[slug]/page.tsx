@@ -95,6 +95,7 @@ export default function ArticlePage() {
                   img: (props ) => (
                     <Image 
                       {...props} 
+                      src={props.src || "/images/stock-photo-1.jpg"}
                       className="w-full h-auto object-cover rounded-lg"
                       width={1200}
                       height={600}
