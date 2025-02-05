@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Metadata } from "next";
 import { getArticleById } from "@/endpoints";
 
@@ -9,7 +10,8 @@ type Props = {
 };
 
 export async function generateMetadata(
-  { params }: Props): Promise<Metadata> {
+  { params }: Props,
+): Promise<Metadata> {
   const { id, slug } = params;
   
   try {
