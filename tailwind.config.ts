@@ -28,7 +28,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         mer: '#4d7d7d',
-        mer2: '#BFCFBB'
+        mer2: '#BFCFBB',
+        mer3: '#8EA58C',
+        mer4: '#738A6E',
+        mer5: '#344C3D'
       },
     },
   },
