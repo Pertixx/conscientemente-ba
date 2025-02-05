@@ -11,7 +11,7 @@ export default function CustomTab({ text, onClick, isActive }: CustomTabProps) {
 
   return (
     <button
-      className={twMerge(activeStyles, "px-6 py-4 rounded-lg transition-all")}
+      className={twMerge(activeStyles, "px-6 py-4 rounded-lg transition-all mr-4")}
       onClick={onClick}
     >
       {text}

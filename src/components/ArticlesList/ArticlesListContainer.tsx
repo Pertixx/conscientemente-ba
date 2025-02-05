@@ -31,7 +31,7 @@ export default function ArticlesListContainer() {
   return (
     <div id="articles-list-container" className="w-full py-10">
       <div className="flex flex-col md:flex-row items-start md:items-center md:justify-between gap-3 md:gap-0 mb-12 px-[2%] md:px-[16%]"> 
-        <div className="flex-wrap gap-4">
+        <div className="flex-wrap">
           {tabs.map((tab) => (
             <CustomTab 
               key={tab.id} 
