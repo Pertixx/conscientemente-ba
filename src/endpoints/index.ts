@@ -1,11 +1,11 @@
 import { Entity } from "@/types";
 
 const api = {
-  baseURL: process.env.NEXT_PUBLIC_NEWSROOM_URL,
+  baseURL: process.env.NEXT_PUBLIC_CONTENTOR_URL,
   timeout: Number(process.env.API_TIMEOUT) || 5000,
   headers: {
     'Content-Type': 'application/json',
-    'Authorization': `Bearer ${process.env.NEXT_PUBLIC_NEWSROOM_API_KEY}`
+    'Authorization': `Bearer ${process.env.NEXT_PUBLIC_CONTENTOR_API_KEY}`
   }
 };
 

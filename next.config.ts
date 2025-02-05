@@ -13,6 +13,16 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'newsroom.gg',
         pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.contentor.io',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'contentor.io',
+        pathname: '**',
       }
     ],
   },
