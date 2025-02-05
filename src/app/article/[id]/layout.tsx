@@ -4,7 +4,7 @@ import { getArticleById } from "@/endpoints";
 export async function generateMetadata(
   { params }: { params: { id: string, slug: string } }
 ): Promise<Metadata> {
-  const { id, slug } = await params;
+  const { id, slug } = params;
   
   try {
     const article = await getArticleById(id);
