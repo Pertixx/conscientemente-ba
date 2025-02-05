@@ -2,13 +2,13 @@ import { Metadata } from "next";
 import { getArticleById } from "@/endpoints";
 import { ReactNode } from "react";
 
-type Props = {
-  params: { id: string, slug: string }
-  children: ReactNode
+interface ArticleLayoutProps {
+  params: { id: string; slug: string };
+  children: ReactNode;
 }
 
 export async function generateMetadata(
-  { params }: { params: { id: string, slug: string } }
+  params: { id: string, slug: string }
 ): Promise<Metadata> {
   const { id, slug } = params;
   
@@ -57,7 +57,7 @@ export async function generateMetadata(
   }
 }
 
-export default function ArticleLayout({ children }: Props) {
+export default function ArticleLayout({ children }: ArticleLayoutProps) {
   return (
     <article className="py-24">
       {children}
