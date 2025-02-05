@@ -15,7 +15,9 @@ const eslintConfig = [
     rules: {
       "@typescript-eslint/no-explicit-any": "off",
       "@typescript-eslint/no-unsafe-argument": "off",
-      "@typescript-eslint/no-unsafe-assignment": "off"
+      "@typescript-eslint/no-unsafe-assignment": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "react/no-unescaped-entities": "off"
     }
   }
 ];

@@ -1,16 +1,14 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Metadata } from "next";
 import { getArticleById } from "@/endpoints";
+import { ReactNode } from "react";
 
 type Props = {
-  params: {
-    id: string;
-    slug: string;
-  };
-};
+  params: { id: string, slug: string }
+  children: ReactNode
+}
 
 export async function generateMetadata(
-  { params }: Props,
+  { params }: { params: { id: string, slug: string } }
 ): Promise<Metadata> {
   const { id, slug } = params;
   
@@ -59,7 +57,7 @@ export async function generateMetadata(
   }
 }
 
-export default function ArticleLayout({ children }: { children: React.ReactNode }) {
+export default function ArticleLayout({ children }: Props) {
   return (
     <article className="py-24">
       {children}
