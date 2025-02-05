@@ -1,9 +1,15 @@
 import { Metadata } from "next";
 import { getArticleById } from "@/endpoints";
 
+type Props = {
+  params: {
+    id: string;
+    slug: string;
+  };
+};
+
 export async function generateMetadata(
-  { params }: { params: { id: string, slug: string } }
-): Promise<Metadata> {
+  { params }: Props): Promise<Metadata> {
   const { id, slug } = params;
   
   try {
@@ -51,9 +57,7 @@ export async function generateMetadata(
   }
 }
 
-export default function ArticleLayout({ children }: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function ArticleLayout({ children }: { children: React.ReactNode }) {
   return (
     <article className="py-24">
       {children}
