@@ -1,16 +1,14 @@
 import { Metadata } from "next";
 import { getArticleById } from "@/endpoints";
-import { ReactNode } from "react";
 
 interface ArticleLayoutProps {
-  params: { id: string; slug: string };
-  children: ReactNode;
+  params: Promise<{ id: string; slug: string }>;
 }
 
 export async function generateMetadata(
-  params: { id: string, slug: string }
+  { params }:  ArticleLayoutProps
 ): Promise<Metadata> {
-  const { id, slug } = params;
+  const { id, slug } = await params;
   
   try {
     const article = await getArticleById(id);
@@ -57,7 +55,9 @@ export async function generateMetadata(
   }
 }
 
-export default function ArticleLayout({ children }: ArticleLayoutProps) {
+export default function ArticleLayout({ children }: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <article className="py-24">
       {children}
