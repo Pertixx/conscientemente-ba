@@ -60,6 +60,6 @@ export interface Article {
   tags: Tag[];
 }
 
-export type Entity = 'all' | 'journal' | 'vinculos' | 'mindfulness' | 'psico-debate';
+export type Entity = 'all' | 'journal' | 'vinculos' | 'mindfulness' | 'psicodebate';
 
 export type Filter = 'newest' | 'oldest' | 'mostPopular';

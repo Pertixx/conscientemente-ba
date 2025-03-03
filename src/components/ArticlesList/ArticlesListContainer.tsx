@@ -16,7 +16,7 @@ export default function ArticlesListContainer() {
     { id: 'journal', label: 'Journal' },
     { id: 'vinculos', label: 'Vínculos' },
     { id: 'mindfulness', label: 'Mindfulness' },
-    { id: 'psico-debate', label: 'Psico Debate' },
+    { id: 'psicodebate', label: 'Psico Debate' },
   ] as const;
 
   const handleFilterChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
