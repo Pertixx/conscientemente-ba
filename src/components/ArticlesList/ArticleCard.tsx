@@ -41,7 +41,7 @@ export default function ArticleCard({ article }: { article: Article }) {
             {article.lead}
           </p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="hidden items-center gap-2">
           <Image 
             src={article.author?.profile_image}
             className="object-cover w-10 h-10 rounded-full"

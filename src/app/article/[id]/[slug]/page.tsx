@@ -72,8 +72,8 @@ export default function ArticlePage() {
             />
             <div className="flex items-start md:items-center gap-0 md:gap-8 flex-col md:flex-row">
               <div className="flex items-center gap-2">
-                <p className="font-medium">{article?.author.first_name} {article?.author.last_name}</p>
-                <span className="text-gray-600 text-xl">&bull;</span>
+                <p className="font-medium hidden">{article?.author.first_name} {article?.author.last_name}</p>
+                <span className="text-gray-600 text-xl hidden">&bull;</span>
                 <p className="font-medium">{FormatDate(article?.publication_date)}</p>
               </div>
               <div className="flex items-center gap-2">
