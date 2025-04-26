@@ -18,7 +18,7 @@ interface UseArticlesReturn {
   loadMore: () => Promise<void>;
 }
 
-export const useArticles = (initialCount: number = 10, initialDays: number = 100): UseArticlesReturn => {
+export const useArticles = (initialCount: number = 10, initialDays: number = 0): UseArticlesReturn => {
   const [articles, setArticles] = useState<Article[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [page, setPage] = useState<number>(0);
