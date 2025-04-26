@@ -40,7 +40,7 @@ export const useArticles = (initialCount: number = 10, initialDays: number = 0):
 
       const params: PaginationParams = {
         count: initialCount,
-        days: initialDays,
+        // days: initialDays,
         offset: reset ? 0 : page * initialCount
       };
 
